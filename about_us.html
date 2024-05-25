@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everest Nepal</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <link
+    href="https://getbootstrap.com/docs/5.3/assets/css/docs.css"
+    rel="stylesheet"
+  />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <style>
+      <style>
+    /* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+/* Header Section */
+header {
+  background: linear-gradient(rgba(11, 24, 43, 0.7), rgba(11, 24, 43, 0.7)), url('img/label1.jpg') center center no-repeat;
+  background-size: cover;
+  color: #0B182B;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.25rem;
+}
+
+/* About Section */
+.about img,
+.vision img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Values Section */
+.values .card {
+  transition: transform 0.3s ease;
+}
+
+.values .card:hover {
+  transform: translateY(-10px);
+}
+
+/* Team Section */
+.team .card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.team .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+    </style>
+  </head>
+  
+
+  <header>
+    <nav class="navbar navbar-expand-lg custom-navbar  data-mdb-theme= light;" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./img/Group 10.png" class="img-fluid" alt="Everest logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Courses
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Pre-school (Age 2+)</a></li>
+                  <li><a class="dropdown-item" href="#">LKG-UKG</a></li>
+                  <li><a class="dropdown-item" href="#">Primary School (Grade 1-5)</a></li>
+                  <li><a class="dropdown-item" href="#">Middle School (Grade 6-7)</a></li>
+                  <li><a class="dropdown-item" href="#">BLE (Grade 8)</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Addmission
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Admission Form</a></li>
+                  <li><a class="dropdown-item" href="#">Admission Process</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Entrance Exam</a></li>
+                  <li><a class="dropdown-item" href="#">Scholarship</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about_us.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+      </div>
+    </div>
+      </nav>
+      </header>
+      <body>
+
+  <!-- Header Section -->
+  <header class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1>About Us</h1>
+      <p>Learn more about our mission, vision, and values</p>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="about py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Our Mission</h2>
+          <p>At Everest Nepal English Boarding School, our mission is to provide a nurturing and stimulating educational environment that fosters academic excellence, personal growth, and character development. We are dedicated to inspiring our students to reach their full potential, embrace lifelong learning, and become compassionate, responsible global citizens.<br></p>
+        </div>
+        <div class="col-md-6">
+          <img src="img/mission.jpg" class="img-fluid rounded" alt="Our Mission">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vision Section -->
+  <section class="vision bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 order-md-2">
+          <h2>Our Vision</h2>
+          <p>Our vision is to be a leading educational institution recognized for academic excellence, innovation, and holistic development. We aspire to cultivate a vibrant learning community where students are empowered to explore their passions, develop critical thinking skills, and contribute positively to society. Through a commitment to quality education and continuous improvement, we aim to shape future leaders who will make a meaningful impact on the world.<br> <br></p>
+  
+        </div>
+        <div class="col-md-6 order-md-1">
+          <img src="img/vision.jpg" class="img-fluid rounded" alt="Our Vision">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Values Section -->
+  <section class="values py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/Excellence.jpg" class="card-img-top" alt="Value 1">
+            <div class="card-body">
+              <h5 class="card-title">Excellence</h5>
+              <p class="card-text"> We strive for academic excellence by providing a rigorous and innovative curriculum supported by modern facilities and experienced faculty. Our goal is to empower students to achieve their highest potential and prepare them for success in a global society.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/Integrity.jpg" class="card-img-top" alt="Value 2">
+            <div class="card-body">
+              <h5 class="card-title">Integrity</h5>
+              <p class="card-text">We believe in nurturing strong moral values and ethical behavior. Our programs emphasize honesty, responsibility, and respect, guiding students to develop a solid character and make principled decisions in all aspects of their lives.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/Community.jpg" class="card-img-top" alt="Value 3">
+            <div class="card-body">
+              <h5 class="card-title">Community</h5>
+              <p class="card-text">We cultivate a strong sense of community where every student feels valued and supported. Our inclusive environment encourages collaboration, mutual respect, and the celebration of diversity. Through various activities and events, we foster connections among students, parents, and staff, creating a warm and welcoming school culture.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team bg-light py-5">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2>Meet Our Team</h2>
+        <p>Our dedicated and experienced team members are here to support your child's education journey.</p>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/principle.jpg" class="card-img-top" alt="Team Member 1">
+            <div class="card-body text-center">
+              <h5 class="card-title">Amarnath Yadav</h5>
+              <p class="card-text">Principal</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/placeholder.jpg" class="card-img-top" alt="Team Member 2">
+            <div class="card-body text-center">
+              <h5 class="card-title">Jane Smith</h5>
+              <p class="card-text">Vice Principal</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/placeholder.jpg" class="card-img-top" alt="Team Member 3">
+            <div class="card-body text-center">
+              <h5 class="card-title">Emily Johnson</h5>
+              <p class="card-text">Head of Admissions</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+        
+        </body>
+<!-- Footer -->
+<footer class="text-center text-white" style="background-color: #0B182B;">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Everest Nepal
+          </h6>
+          <p>
+           we provide a nurturing environment for students from Pre-Primary (PG) to Class 8. Our focus on holistic education promotes academic excellence, personal growth, and character development in every child."
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Class 
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pre-school (Age 2+)</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">LKG-UKG</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Primary School (Grade 1-5)</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Middle School (Grade 6-7)</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">BLE (Grade 8)</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+<!-- Grid column -->
+<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+  <!-- Links -->
+  <h6 class="text-uppercase fw-bold mb-4">
+    Useful links
+  </h6>
+  <ul class="list-unstyled">
+    <li>
+      <a href="./gallery.html" class="text-reset">Gallery</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Courses
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Pre-school (Age 2+)</a></li>
+        <li><a class="dropdown-item" href="#">LKG-UKG</a></li>
+        <li><a class="dropdown-item" href="#">Primary School (Grade 1-5)</a></li>
+        <li><a class="dropdown-item" href="#">Middle School (Grade 6-7)</a></li>
+        <li><a class="dropdown-item" href="#">BLE (Grade 8)</a></li>
+      </ul>
+    </li>
+  
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Admission 
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Addmission process</a></li>
+        <li><a class="dropdown-item" href="#">Addmission Form</a></li>
+        <li><a class="dropdown-item" href="#">Enftrance Exam</a></li>
+        <li><a class="dropdown-item" href="#">Scholarship</a></li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="#!" class="text-reset">Contact Us</a>
+    </li>
+    <li>
+      <a href="#!" class="text-reset">About Us</a>
+    </li>
+  </ul>
+</div>
+<!-- Grid column -->
+
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i>Kamala Municipality 3, Lagma </p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@everestnepal.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +977-9819897863</p>
+          <p><i class="fas fa-print me-3"></i> +977-9812345678</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Iframe -->
+    <section class="">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-6">
+          <div class="ratio ratio-16x9">
+           <iframe
+              class="shadow-1-strong rounded"
+              src="./img/schoolVideo.mp4"
+              title="YouTube video"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Iframe -->
+  </div>
+  <!-- Grid container -->
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  ENQUIRE NOW 
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="margin-bottom: 100px;">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Take the next step towards your carrer. we will get back to you shortly.</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Student-Name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="inputName"
+          placeholder="Enter student's name"
+        />
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Parent's Name</label>
+        <input
+          type="password"
+          class="form-control"
+          id="inputParent"
+          placeholder="Enter parent's name"
+        />
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label"
+          >Parent's Mobile Number</label
+        >
+        <input
+          type="number"
+          class="form-control"
+          id="inputParentMobileNum"
+          placeholder="9800000000"
+        />
+      </div>
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label">Address </label>
+        <input
+          type="text"
+          class="form-control"
+          id="inputAddress2"
+          placeholder=" Enter Your address"
+        />
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">Select Course</label>
+        <select id="inputState" class="form-select">
+          <option selected="">Choose...</option>
+          <option>Pre-school (Age 2+)</option>
+          <option>LKG-UKG</option>
+          <option>Primary School (Grade 1-5)</option>
+          <option>Middle School (Grade 6-7)</option>
+          <option>BLE (Grade 8)</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">Enquiry Messages </label>
+        <input type="text" class="form-control" id="inputmessages" />
+      </div>
+    </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2024 Copyright:
+    <a class="text-reset fw-bold" href="#">EverestNepal.com</a>
+    <a href=""> <h6>Develop by Harishankar sah</h6></a>
+  </div>
+  <!-- Copyright -->
+  
+</footer>
+   
+   
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
+      
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.umd.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+
+</html>
+

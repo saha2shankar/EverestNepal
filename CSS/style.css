@@ -1,0 +1,390 @@
+.logo-wrapper img {
+  width: 80%;
+  padding-right: 50px;
+  padding-left: 20px;
+}
+
+.d-flex {
+  padding-right: 20px;
+}
+
+.carousel-item img {
+  height: 50%;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+
+}
+
+.card {
+  height: 50%;
+  object-fit: cover;
+}
+
+.list-unstyled li {
+  margin-bottom: 10px;
+  /* Adjust as needed */
+}
+
+.card img {
+  height: 300px;
+  object-fit: cover;
+}
+
+
+/* Active link color */
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active:hover {
+  color: #0713ff;
+  /* Adjust as needed */
+}
+
+.container {
+  padding: 20px;
+}
+
+.col-md-4 {
+  padding: 20px;
+}
+
+
+.custom-navbar {
+  background-color: #F8F9FA;
+}
+
+.col-md-6 {
+  padding: 20px;
+}
+
+/* Custom styles */
+
+.profile-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* Soft shadow effect */
+}
+
+.profile-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.profile-title {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.message-link {
+  color: #d00;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.message-text {
+  font-size: 16px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  /* Show only 2 lines */
+  -webkit-box-orient: vertical;
+}
+
+.message-full {
+  display: none;
+}
+
+.more-button {
+  padding: 10px 20px;
+  background-color: #d00;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  /* Smooth transition for button */
+}
+
+.more-button:hover {
+  background-color: #a00;
+  /* Darker shade on hover */
+}
+
+.expanded {
+  display: block !important;
+}
+
+.courseintro,
+.intro,
+.intro-service {
+  font-size: -webkit-xxx-large;
+  margin-block-start: 40px;
+  margin-block-end: 20px;
+  margin-left: 100px;
+  font-weight: bold;
+  color: darkorange;
+  font-style: italic;
+}
+
+.year {
+  margin-block-end: 20px;
+  margin-left: 100px;
+  font-weight: bold;
+  color: rgb(36, 6, 235);
+  text-align: justify;
+  padding-right: 140px;
+
+
+}
+
+.yearintro {
+  margin-block-end: 20px;
+  margin-left: 100px;
+  font-weight: bold;
+  color: rgb(3, 37, 10);
+  text-align: justify;
+  padding-right: 140px;
+}
+
+.intromission {
+  margin-left: 100px;
+  color: darkorange;
+  font-size: xx-large;
+  font-style: italic;
+
+}
+.intromissionandvision{
+  margin-block-end: 20px;
+  margin-left: 100px;
+  font-weight: bold;
+  color: rgb(239, 244, 240);
+  text-align: justify;
+  padding-right: 140px;
+
+}
+.features{
+  margin-block-end: 20px;
+  margin-left: 40px;
+  font-weight: bold;
+  color: rgb(2, 11, 4);
+  text-align: justify;
+  padding-right: 140px;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.introduction {
+  background: linear-gradient(rgba(11, 24, 43, 0.7), rgba(43, 11, 11, 0.7)), url("/img/6.jpg") center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFF;
+  height: auto;
+  position: relative;
+}
+
+.mission_intro {
+  background: url("/img/missionandvision.png") center center fixed;
+  color: #FFF;
+  height: auto;
+  position: relative;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -msn-background-size: cover;
+}
+
+.sahana {
+  background: linear-gradient(rgba(11, 24, 43, 0.7), rgba(15, 3, 5, 0.7)), url("/img/15.jpg") center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFF;
+  height: auto;
+  position: relative;
+
+}
+
+.card-title {
+  color: #0713ff;
+  text-align: center;
+}
+
+.btn btn-primary {
+  margin-left: 70px;
+}
+
+.intro,
+.intro-service {
+  padding-top: 50px;
+
+}
+
+.serviceintro {
+  color: rgb(1, 12, 21);
+  margin-block-end: 20px;
+  margin-left: 100px;
+  font-weight: bold;
+  text-align: justify;
+  padding-right: 140px;
+}
+
+.hidden {
+  display: none;
+}
+
+.mission-vision {
+  padding-top: 30px;
+  text-align: center;
+  font-size: xxx-large;
+  font-weight: bold;
+}
+
+
+.pass-students {
+  background: url("/img/blac_green.avif") center center fixed;
+  color: #FFF;
+  height: auto;
+  position: relative;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -msn-background-size: cover;
+
+
+}
+
+
+.kmc-title {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.kmc-carousel-item {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.kmc-carousel-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.kmc-carousel-item img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.kmc-carousel-caption {
+  position: static;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.kmc-carousel-caption h5 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.kmc-carousel-caption p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
+
+.kmc-carousel-control-prev-icon,
+.kmc-carousel-control-next-icon {
+  background-color: #333;
+  border-radius: 50%;
+}
+.colorcourse{
+  color: #a00;
+}
+
+
+@media screen and (max-width: 768px) {
+  .Princial {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    /* Light gray background */
+    text-align: center;
+
+  }
+
+  .courseintro {
+    font-size: xx-large;
+    margin-left: 40px;
+  }
+
+  .yearintro {
+    margin-left: 20px;
+    font-size: small;
+    text-align: justify;
+    padding-right: 10px;
+  }
+
+  .year {
+    margin-left: 20px;
+    font-size: small;
+    text-align: justify;
+    padding-right: 10px;
+  }
+
+  .intro,.intro-service {
+    font-size: xx-large;
+    margin-left: 20px;
+
+
+
+
+  }
+  .intromission{
+      margin: 20px;
+  }
+  .intromissionandvision{
+    margin: 20px;
+    padding: inherit;
+  }
+  .features{
+    margin: 10px;
+    padding: inherit;
+    padding-right: 10px;
+  }
+
+  .serviceintro {
+    margin-left: 20px;
+    font-size: small;
+    text-align: justify;
+    padding-right: 10px;
+  }
+
+  .imgPrincipal {
+    height: 100px;
+  }
+
+  .mission-vision {
+    padding-top: 40px;
+    text-align: center;
+    font-size: xx-large;
+
+  }
+
+  .display-1 {
+    font-size: xx-large;
+  }
+
+
+
+}
