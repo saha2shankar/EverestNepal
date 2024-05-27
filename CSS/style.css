@@ -182,7 +182,7 @@
   margin-top: 5px;
 }
 .introduction {
-  background: linear-gradient(rgba(11, 24, 43, 0.7), rgba(43, 11, 11, 0.7)), url("../img/6.jpg") center center fixed;
+  background: linear-gradient(rgba(11, 24, 43, 0.7), rgba(43, 11, 11, 0.7)), url("") center center fixed;
   background-repeat: no-repeat;
   background-size: cover;
   color: #FFF;
@@ -191,7 +191,8 @@
 }
 
 .mission_intro {
-  background: url("../img/missionandvision.png") center center fixed;
+ 
+ background-image: url("../img/missionandvision.png") center center fixed;
   color: #FFF;
   height: auto;
   position: relative;
